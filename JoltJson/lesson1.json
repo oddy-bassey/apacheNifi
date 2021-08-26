@@ -1,0 +1,109 @@
+[{
+	"operation": "shift",
+	"spec" : {
+    	"reportType": "reportType",
+      	"selectedManufacture": "selectedManufacture",
+      
+      	"contacts": {
+          	"*": {
+            	"contactId":"contactId",
+                "name":"name",  
+                "memory":"memory",
+                "phoneNumber":"phoneNumber",
+                "designation":"designation",
+                "email":"email",
+                "notAValue": "notAValue"
+            }
+    	},
+        "sms":{
+            "*": {
+                "smsId":"smsId",
+                "number":"number",
+                "name":"name",
+                "timestamp":"timestamp",
+                "status":"status",
+                "folder":"folder",
+                "storage":"storage",
+                "type":"type",
+                "text":"text",
+                "smsc":"smsc"
+            }
+        },
+        "calls":{
+            "*": {
+                "callId":"callId",
+                "type":"type",
+                "number":"number",
+                "name":"name",
+                "timestamp":"timestamp",
+                "duration":"duration"
+            }
+        },
+        "imageFiles":{
+            "*": {
+                "imageId":"imageId",
+                "name":"name",
+                "storedName":"storedName",
+                "thumbLocation":"thumbLocation",
+                "path":"path",
+                "memory":"memory",
+                "size":"size",
+                "dateTime":"dateTime",
+                "dateTimeModified":"dateTimeModified",
+                "resolution":"resolution",
+                "pixelResolution":"pixelResolution",
+                "cameraMake":"cameraMake",
+                "cameraModel":"cameraModel",
+                "exifDateTime":"exifDateTime"
+            }
+        },
+        "callLogs":{
+            "*":{
+                "logId":"logId",
+                "callStart":"callStart",
+                "callingNumber":"callingNumber",
+                "calledNumber":"calledNumber",
+                "duration":"duration",
+                "recordType":"recordType",
+                "firstCell":"firstCell",
+                "firstSite":"firstSite",
+                "lastCell":"lastCell",
+                "lastSite":"lastSite",
+                "mainNumber":"mainNumber",
+                "imsi":"imsi",
+                "imei":"imei",
+                "make":"make",
+                "model":"model",
+                "firstLongitude":"firstLongitude",
+                "firstLatitude":"firstLatitude",
+                "lastLongitude":"lastLongitude",
+                "lastLatitude":"lastLatitude",
+                "callDate":"callDate",
+                "callTime":"callTime"
+            }
+        },
+  
+  		"trackingReports":{
+            "*": {
+                "trackingId":"trackingId",
+                "alias":"alias",
+                "username":"username",
+                "msisdn":"msisdn",
+                "imsi":"imsi",
+                "imei":"imei",
+                "type":"type",
+                "queryDate":"queryDate",
+                "haLatitude":"haLatitude",
+                "haLongitude":"haLongitude",
+                "latitude":"latitude",
+                "longitude":"longitude",
+                "cellReference":"cellReference",
+                "phoneStatus":"phoneStatus",
+                "locationQuality":"locationQuality",
+                "locationAddress":"locationAddress",
+                "haResponseCode":"haResponseCode",
+                "responseCode":"responseCode"
+            }
+        }
+    }
+}]
